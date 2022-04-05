@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\WeatherApp\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\User\source\repos\WeatherApp\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\User\source\repos\WeatherApp\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\WeatherApp\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.pdb
