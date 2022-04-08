@@ -7,3 +7,12 @@ C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.
 C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
 C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.dll
 C:\Users\User\source\repos\WeatherApp\Infraestructure\obj\Debug\Infraestructure.pdb
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\bin\Debug\Infraestructure.dll
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\bin\Debug\Infraestructure.pdb
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\obj\Debug\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\obj\Debug\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\obj\Debug\Infraestructure.csproj.CopyComplete
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\obj\Debug\Infraestructure.dll
+C:\Users\JADPA08\Documents\OpenWeatherApp-main\Infraestructure\obj\Debug\Infraestructure.pdb

@@ -8,13 +8,27 @@ namespace Infraestructure.Models
 {
     public class WeatherAppModel
     {
-        public DateTime ConvertDateTime(long milesimasSeg)
+        public DateTime ConvertDateTime(long seconds)
         {
 
-            DateTime day = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc).ToLocalTime();
-            day = day.AddMilliseconds(milesimasSeg).ToLocalTime();
+            DateTime day = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).ToLocalTime();
+            day = day.AddSeconds(seconds).ToLocalTime();
             return day;
 
         }
+
+        public double CovertTem(double temperatura)
+        {
+            double temp = temperatura - 273.15;
+            return temp;
+
+        }
+        public double ConvertSpeed(double speed)
+        {
+            double vdv = speed * 3.6;
+            return vdv;
+        }
+
+
     }
 }

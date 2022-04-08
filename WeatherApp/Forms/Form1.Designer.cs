@@ -42,6 +42,10 @@
             this.lblVelocidad = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblTemMax = new System.Windows.Forms.Label();
+            this.lblTemMin = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -175,19 +179,61 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(291, 174);
+            this.pictureBox1.Location = new System.Drawing.Point(137, 86);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(116, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(291, 183);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(108, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Temperatura maxima:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(291, 224);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 13);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "Temperatura minima:";
+            // 
+            // lblTemMax
+            // 
+            this.lblTemMax.AutoSize = true;
+            this.lblTemMax.BackColor = System.Drawing.Color.Transparent;
+            this.lblTemMax.Location = new System.Drawing.Point(405, 184);
+            this.lblTemMax.Name = "lblTemMax";
+            this.lblTemMax.Size = new System.Drawing.Size(27, 13);
+            this.lblTemMax.TabIndex = 16;
+            this.lblTemMax.Text = "N/A";
+            // 
+            // lblTemMin
+            // 
+            this.lblTemMin.AutoSize = true;
+            this.lblTemMin.BackColor = System.Drawing.Color.Transparent;
+            this.lblTemMin.Location = new System.Drawing.Point(405, 224);
+            this.lblTemMin.Name = "lblTemMin";
+            this.lblTemMin.Size = new System.Drawing.Size(27, 13);
+            this.lblTemMin.TabIndex = 17;
+            this.lblTemMin.Text = "N/A";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(479, 314);
+            this.ClientSize = new System.Drawing.Size(467, 306);
+            this.Controls.Add(this.lblTemMin);
+            this.Controls.Add(this.lblTemMax);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblPresion);
             this.Controls.Add(this.label8);
@@ -226,6 +272,10 @@
         private System.Windows.Forms.Label lblVelocidad;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblTemMax;
+        private System.Windows.Forms.Label lblTemMin;
     }
 }
 

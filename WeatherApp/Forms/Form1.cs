@@ -17,6 +17,7 @@ namespace WeatherApp
     public partial class Form1 : Form
     {
         WeatherAppModel weather;
+      
         public Form1()
         {
             weather = new WeatherAppModel();
@@ -43,10 +44,11 @@ namespace WeatherApp
                     pictureBox1.ImageLocation = "https://openweathermap.org/img/w/" + info.weather[0].icon + ".png";
                     lblCondition.Text = info.weather[0].main;
                     lblDetalles.Text = info.weather[0].description;
-                    lblAmanecer.Text = weather.ConvertDateTime(info.sys.sunset).ToString();
-                    lblAtardecer.Text = weather.ConvertDateTime(info.sys.sunrise).ToString();
-
-                    lblVelocidad.Text = info.wind.speed.ToString();
+                    lblAmanecer.Text = weather.ConvertDateTime(info.sys.sunrise).ToShortTimeString() + " AM";
+                    lblAtardecer.Text = weather.ConvertDateTime(info.sys.sunset).ToShortTimeString() + " PM";
+                    lblTemMax.Text = weather.CovertTem(info.main.temp_max).ToString();
+                    lblTemMin.Text = weather.CovertTem(info.main.temp_min).ToString();
+                    lblVelocidad.Text = weather.ConvertSpeed(info.wind.speed).ToString();
                     lblPresion.Text = info.main.pressure.ToString();
                 }
             }
